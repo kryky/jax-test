@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8da22306-4f8a-4f84-889f-bba1bf5b6f98" name="Default" comment="Added FileDownload class">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/RESTfulExample-1.0-SNAPSHOT/WEB-INF/classes/com/mkyong/rest/MessageRestService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mkyong/rest/MessageRestService.class" afterPath="" />
+    <list default="true" id="8da22306-4f8a-4f84-889f-bba1bf5b6f98" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/RESTfulExample-1.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/target/RESTfulExample-1.0-SNAPSHOT.war" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/mkyong/rest/FileDownload.java" afterPath="$PROJECT_DIR$/src/main/java/com/mkyong/rest/FileDownload.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,8 +32,8 @@
       <file leaf-file-name="FileDownload.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/mkyong/rest/FileDownload.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="34" lean-forward="true" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+            <state relative-caret-position="306">
+              <caret line="18" column="25" lean-forward="false" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -820,7 +819,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1499870677157</updated>
-      <workItem from="1499870678477" duration="14089000" />
+      <workItem from="1499870678477" duration="14156000" />
     </task>
     <task id="LOCAL-00001" summary="HelloWorld class">
       <created>1499931308943</created>
@@ -864,11 +863,18 @@
       <option name="project" value="LOCAL" />
       <updated>1499938438112</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Added FileDownload class">
+      <created>1499949417429</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1499949417429</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14089000" />
+    <option name="totallyTimeSpent" value="14156000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -923,7 +929,8 @@
     <MESSAGE value="Added html form and method that gets the data from it" />
     <MESSAGE value="Imported the form-data in the same class with the other one" />
     <MESSAGE value="Delete MessageRestService.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Delete MessageRestService.java" />
+    <MESSAGE value="Added FileDownload class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added FileDownload class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1010,8 +1017,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mkyong/rest/FileDownload.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="34" lean-forward="true" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+        <state relative-caret-position="306">
+          <caret line="18" column="25" lean-forward="false" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

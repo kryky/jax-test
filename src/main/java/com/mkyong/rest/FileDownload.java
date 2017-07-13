@@ -2,6 +2,7 @@ package com.mkyong.rest;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
+import javax.ws.rs.Produces;
 import javax.ws.rs.core.Response;
 import java.io.File;
 
@@ -15,6 +16,7 @@ public class FileDownload {
 
     @GET
     @Path("/Text")
+    @Produces("text/plain")
     public Response downloadTextFile() {
 
         File file = new File(FILE_PATH);
