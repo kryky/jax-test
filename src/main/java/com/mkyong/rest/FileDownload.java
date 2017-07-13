@@ -22,7 +22,7 @@ public class FileDownload {
         File file = new File(FILE_PATH);
 
         Response.ResponseBuilder response = Response.ok((Object) file);
-        response.header("Content-Disposition", "attachment; filename=\"file.txt\"");
+        response.header("Content-Disposition", "attachment; filename=file.txt");
         return response.build();
 
     }
