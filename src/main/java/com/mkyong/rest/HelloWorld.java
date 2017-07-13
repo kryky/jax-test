@@ -16,6 +16,7 @@ public class HelloWorld {
     @Path("/{param}")
     public Response getPath(@PathParam("param") String message) {
         String msg = "Your first word: " + message;
+        //blablbala
 
         return Response.status(200).entity(msg).build();
     }
