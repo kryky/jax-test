@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8da22306-4f8a-4f84-889f-bba1bf5b6f98" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/mkyong/rest/MessageRestService.java" afterPath="" />
+    <list default="true" id="8da22306-4f8a-4f84-889f-bba1bf5b6f98" name="Default" comment="Added FileDownload class">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/RESTfulExample-1.0-SNAPSHOT/WEB-INF/classes/com/mkyong/rest/MessageRestService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mkyong/rest/MessageRestService.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/RESTfulExample-1.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/target/RESTfulExample-1.0-SNAPSHOT.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/RESTfulExample-1.0-SNAPSHOT/WEB-INF/classes/com/mkyong/rest/HelloWorld.class" afterPath="$PROJECT_DIR$/target/RESTfulExample-1.0-SNAPSHOT/WEB-INF/classes/com/mkyong/rest/HelloWorld.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/mkyong/rest/HelloWorld.class" afterPath="$PROJECT_DIR$/target/classes/com/mkyong/rest/HelloWorld.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -19,11 +18,23 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="HelloWorld.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HelloWorld.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/mkyong/rest/HelloWorld.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="35">
-              <caret line="20" column="28" lean-forward="false" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+            <state relative-caret-position="171">
+              <caret line="25" column="30" lean-forward="false" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FileDownload.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mkyong/rest/FileDownload.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="34" lean-forward="true" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -35,7 +46,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="307">
-              <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+              <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -73,6 +84,7 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/mkyong/rest/dataForm.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mkyong/rest/HelloWorld.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mkyong/rest/FileDownload.java" />
       </list>
     </option>
   </component>
@@ -808,7 +820,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1499870677157</updated>
-      <workItem from="1499870678477" duration="11484000" />
+      <workItem from="1499870678477" duration="14089000" />
     </task>
     <task id="LOCAL-00001" summary="HelloWorld class">
       <created>1499931308943</created>
@@ -845,11 +857,18 @@
       <option name="project" value="LOCAL" />
       <updated>1499938293686</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Delete MessageRestService.java">
+      <created>1499938438112</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1499938438112</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11484000" />
+    <option name="totallyTimeSpent" value="14089000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -903,7 +922,8 @@
     <MESSAGE value="Using Context UriInfo" />
     <MESSAGE value="Added html form and method that gets the data from it" />
     <MESSAGE value="Imported the form-data in the same class with the other one" />
-    <option name="LAST_COMMIT_MESSAGE" value="Imported the form-data in the same class with the other one" />
+    <MESSAGE value="Delete MessageRestService.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Delete MessageRestService.java" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -957,7 +977,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="307">
-          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -980,8 +1000,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mkyong/rest/HelloWorld.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35">
-          <caret line="20" column="28" lean-forward="false" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+        <state relative-caret-position="171">
+          <caret line="25" column="30" lean-forward="false" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mkyong/rest/FileDownload.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="34" lean-forward="true" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
