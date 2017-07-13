@@ -6,7 +6,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/RESTfulExample-1.0-SNAPSHOT/WEB-INF/classes/com/mkyong/rest/MessageRestService.class" afterPath="$PROJECT_DIR$/target/RESTfulExample-1.0-SNAPSHOT/WEB-INF/classes/com/mkyong/rest/MessageRestService.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/mkyong/rest/MessageRestService.class" afterPath="$PROJECT_DIR$/target/classes/com/mkyong/rest/MessageRestService.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/mkyong/rest/MessageRestService.java" afterPath="$PROJECT_DIR$/src/main/java/com/mkyong/rest/MessageRestService.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -807,12 +806,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1499870677157</updated>
-      <workItem from="1499870678477" duration="4930000" />
+      <workItem from="1499870678477" duration="5027000" />
     </task>
+    <task id="LOCAL-00001" summary="HelloWorld class">
+      <created>1499931308943</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1499931308943</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4930000" />
+    <option name="totallyTimeSpent" value="5027000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -857,6 +864,12 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="HelloWorld class" />
+    <option name="LAST_COMMIT_MESSAGE" value="HelloWorld class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
