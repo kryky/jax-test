@@ -17,6 +17,8 @@ public class FileDownload {
     @GET
     @Path("/Text")
     @Produces("text/plain")
+    //@Produces("application/pdf")              //For PDF
+    //@Produces("application/vnd.ms-excel")     //For Excel
     public Response downloadTextFile() {
 
         File file = new File(FILE_PATH);
