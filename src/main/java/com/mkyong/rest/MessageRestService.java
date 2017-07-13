@@ -9,12 +9,14 @@ import javax.ws.rs.core.Response;
 public class MessageRestService {
 
     @GET
-    @Path("/{param}")
-    public Response printMessage(@PathParam("param") String msg) {
+    @Path("/{param}/{param2}")
+    public Response printMessage(@PathParam("param") String msg, @PathParam("param2") String msg2) {
 
-        String result = "Restful example : " + msg;
+        String result = "My first example : " + msg;
 
-        return Response.status(200).entity(result).build();
+        String result2 = "My second example : " + msg + " " + msg2;
+
+        return Response.status(200).entity(result2).build();
 
     }
 
