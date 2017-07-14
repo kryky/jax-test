@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8da22306-4f8a-4f84-889f-bba1bf5b6f98" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/RESTfulExample-1.0-SNAPSHOT/WEB-INF/classes/com/mkyong/rest/HelloWorld.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mkyong/rest/HelloWorld.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/RESTfulExample-1.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/target/RESTfulExample-1.0-SNAPSHOT.war" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/mkyong/rest/model/Message.java" afterPath="$PROJECT_DIR$/src/main/java/com/mkyong/rest/model/Message.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/mkyong/rest/resources/MessageResources.java" afterPath="$PROJECT_DIR$/src/main/java/com/mkyong/rest/resources/MessageResources.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -80,7 +76,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Message.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Message.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/mkyong/rest/model/Message.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
@@ -96,11 +92,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Comment.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Comment.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/mkyong/rest/model/Comment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+            <state relative-caret-position="256">
+              <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
               <folding>
                 <element signature="e#383#384#0" expanded="true" />
                 <element signature="e#408#409#0" expanded="true" />
@@ -1076,7 +1072,7 @@
       <option name="presentableId" value="Default" />
       <updated>1499870677157</updated>
       <workItem from="1499870678477" duration="31723000" />
-      <workItem from="1500042223149" duration="241000" />
+      <workItem from="1500042223149" duration="276000" />
     </task>
     <task id="LOCAL-00001" summary="HelloWorld class">
       <created>1499931308943</created>
@@ -1162,11 +1158,18 @@
       <option name="project" value="LOCAL" />
       <updated>1500041214377</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Comment clas">
+      <created>1500042474807</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1500042474807</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31964000" />
+    <option name="totallyTimeSpent" value="31999000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -1227,7 +1230,8 @@
     <MESSAGE value="Deleted useless &quot;&quot; from filename" />
     <MESSAGE value="Comments for other types of file" />
     <MESSAGE value="Changes made until tutorial #25 https://www.youtube.com/watch?v=O4dAxOCYAUg&amp;list=PLqq-6Pq4lTTZh5U8RbdXq0WaYvZBz2rbn&amp;index=25" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes made until tutorial #25 https://www.youtube.com/watch?v=O4dAxOCYAUg&amp;list=PLqq-6Pq4lTTZh5U8RbdXq0WaYvZBz2rbn&amp;index=25" />
+    <MESSAGE value="Comment clas" />
+    <option name="LAST_COMMIT_MESSAGE" value="Comment clas" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1520,10 +1524,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mkyong/rest/model/Message.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="15" column="56" lean-forward="false" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#546#547#0" expanded="true" />
+            <element signature="e#571#572#0" expanded="true" />
+            <element signature="e#605#606#0" expanded="true" />
+            <element signature="e#633#634#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mkyong/rest/model/Comment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        <state relative-caret-position="256">
+          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
           <folding>
             <element signature="e#383#384#0" expanded="true" />
             <element signature="e#408#409#0" expanded="true" />
@@ -1537,20 +1555,6 @@
             <element signature="e#680#681#0" expanded="true" />
             <element signature="e#724#725#0" expanded="true" />
             <element signature="e#760#761#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mkyong/rest/model/Message.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="15" column="56" lean-forward="false" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#546#547#0" expanded="true" />
-            <element signature="e#571#572#0" expanded="true" />
-            <element signature="e#605#606#0" expanded="true" />
-            <element signature="e#633#634#0" expanded="true" />
           </folding>
         </state>
       </provider>
