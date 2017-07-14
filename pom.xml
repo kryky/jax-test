@@ -36,5 +36,10 @@
       <scope>provided</scope>
     </dependency>
 
+    <dependency>
+      <groupId>org.glassfish.jersey.media</groupId>
+      <artifactId>jersey-media-moxy</artifactId>
+    </dependency>
+
   </dependencies>
 </project>

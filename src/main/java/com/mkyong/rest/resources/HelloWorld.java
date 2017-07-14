@@ -1,4 +1,4 @@
-package com.mkyong.rest;
+package com.mkyong.rest.resources;
 
 import javax.ws.rs.FormParam;
 import javax.ws.rs.GET;

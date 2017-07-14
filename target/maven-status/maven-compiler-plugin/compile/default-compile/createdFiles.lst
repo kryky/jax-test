@@ -1,1 +1,6 @@
-com\mkyong\rest\MessageRestService.class
+com\mkyong\rest\resources\PersonResources.class
+com\mkyong\rest\FileDownload.class
+com\mkyong\rest\service\PersonService.class
+com\mkyong\rest\model\Person.class
+com\mkyong\rest\HelloWorld.class
+com\mkyong\rest\ImageDownload.class
