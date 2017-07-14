@@ -52,4 +52,9 @@ public class MessageResources {
         messageService.removeMessage(messageId);
     }
 
+    @Path("/{messageId}/Comments")
+    public CommentResources getCommentResources() {
+        return new CommentResources();
+    }
+
 }
