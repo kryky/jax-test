@@ -1,6 +1,7 @@
 package com.mkyong.rest.service;
 
 import com.mkyong.rest.database.DatabaseClass;
+import com.mkyong.rest.exception.DataNotFoundException;
 import com.mkyong.rest.model.Message;
 
 import java.util.ArrayList;
@@ -25,7 +26,11 @@ public class MessageService {
     }
 
     public Message getMessage(long id) {
-        return messages.get(id);
+        Message message = messages.get(id);
+        if (message == null) {
+            throw new DataNotFoundException("Message with id " + id + " not found!");
+        }
+        return message;
     }
 
     public Message addMessage(Message message) {
