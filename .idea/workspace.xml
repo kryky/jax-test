@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8da22306-4f8a-4f84-889f-bba1bf5b6f98" name="Default" comment="Comment clas">
+    <list default="true" id="8da22306-4f8a-4f84-889f-bba1bf5b6f98" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/mkyong/rest/model/Message.java" afterPath="$PROJECT_DIR$/src/main/java/com/mkyong/rest/model/Message.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/mkyong/rest/resources/CommentResources.java" afterPath="$PROJECT_DIR$/src/main/java/com/mkyong/rest/resources/CommentResources.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/mkyong/rest/resources/MessageResources.java" afterPath="$PROJECT_DIR$/src/main/java/com/mkyong/rest/resources/MessageResources.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/mkyong/rest/service/MessageService.java" afterPath="$PROJECT_DIR$/src/main/java/com/mkyong/rest/service/MessageService.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -1060,7 +1056,7 @@
       <updated>1499870677157</updated>
       <workItem from="1499870678477" duration="31723000" />
       <workItem from="1500042223149" duration="287000" />
-      <workItem from="1500273073402" duration="15241000" />
+      <workItem from="1500273073402" duration="15260000" />
     </task>
     <task id="LOCAL-00001" summary="HelloWorld class">
       <created>1499931308943</created>
@@ -1160,11 +1156,18 @@
       <option name="project" value="LOCAL" />
       <updated>1500042504306</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Finished the tutorial:&#10;https://www.youtube.com/watch?v=vP9HU1o3zsE&amp;index=31&amp;list=PLqq-6Pq4lTTZh5U8RbdXq0WaYvZBz2rbn">
+      <created>1500296923220</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1500296923220</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47251000" />
+    <option name="totallyTimeSpent" value="47270000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1235,7 +1238,8 @@
     <MESSAGE value="Comments for other types of file" />
     <MESSAGE value="Changes made until tutorial #25 https://www.youtube.com/watch?v=O4dAxOCYAUg&amp;list=PLqq-6Pq4lTTZh5U8RbdXq0WaYvZBz2rbn&amp;index=25" />
     <MESSAGE value="Comment clas" />
-    <option name="LAST_COMMIT_MESSAGE" value="Comment clas" />
+    <MESSAGE value="Finished the tutorial:&#10;https://www.youtube.com/watch?v=vP9HU1o3zsE&amp;index=31&amp;list=PLqq-6Pq4lTTZh5U8RbdXq0WaYvZBz2rbn" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished the tutorial:&#10;https://www.youtube.com/watch?v=vP9HU1o3zsE&amp;index=31&amp;list=PLqq-6Pq4lTTZh5U8RbdXq0WaYvZBz2rbn" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
